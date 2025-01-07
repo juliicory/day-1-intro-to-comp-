@@ -13,6 +13,10 @@
     p {
         font-size: 30px;
     }
+    p.eyefact {
+        font-size: 15px;
+        opacity: 0;
+    }
     a.button {
         padding: 8px 15px;
         border: 2px, solid, rgb(112, 111, 109);
@@ -22,9 +26,23 @@
         text-decoration: none;
         font-size: 20px;
     }
+    img.eye:hover {
+        opacity: 1.0;
+    }
+    img.eye {
+        width: 50px;
+        position:fixed; 
+        top: 170px; 
+        left: 570px; 
+        z-index: 1;
+        opacity: 0.1;
+        display: eyefact;
+    }
 </style>
 <body>
     <p>horses have approximately 700 muscles.</p><div>
+    <img src="https://i.pinimg.com/736x/63/ab/d5/63abd52a6ae7857b83bb7b5c28f540fd.jpg" alt="eye" class="eye">
+    <p class="eyefact">horses have the largest eyeball of any land mammal</p>
     <img src="https://cdn.discordapp.com/attachments/609849833557327912/1325937100595396608/muscle.png?ex=677d9aa7&is=677c4927&hm=2e79649052d159987d1b2e1e9c1e997ce7e7b8acdb08912f8be676895a8818f3&" alt="horse" style="width:40%"></div>
     <a href="the guy/" class="button">next layer<a>
 </body>
